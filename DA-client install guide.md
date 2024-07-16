@@ -30,7 +30,7 @@ screen
     --chain.receipt-wait-interval 1s \
     --chain.gas-limit 2000000 \
     --combined-server.use-memory-db \
-    --combined-server.storage.kv-db-path ./../run/ \
+    --combined-server.storage.kv-db-path ./root/0g-storage-kv/run \
     --combined-server.storage.time-to-expire 300 \
     --disperser-server.grpc-port 51001 \
     --batcher.da-entrance-contract 0xDFC8B84e3C98e8b550c7FEF00BCB2d8742d80a69 \
