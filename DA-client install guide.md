@@ -24,7 +24,7 @@ screen -S DAClient
 cd disperser
 screen 
 ./bin/combined \
-    --chain.rpc https://<your IP>:8545 \
+    --chain.rpc https://<your validator IP>:8545 \
     --chain.private-key <validator Private-key> \
     --chain.receipt-wait-rounds 180 \
     --chain.receipt-wait-interval 1s \
