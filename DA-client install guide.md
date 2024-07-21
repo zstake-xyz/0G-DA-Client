@@ -51,7 +51,7 @@ screen
     --chain-read-timeout 12s \
     --chain-write-timeout 13s \
     --combined-server.log.level-file trace \
-    --combined-server.log.level-std  trace \
+    --combined-server.log.level-std  trace
 ```
 
 ### check screen
